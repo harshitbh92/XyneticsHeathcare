@@ -1,10 +1,182 @@
-#contactus{
+#contactus {
     background-color: rgb(34, 34, 34);
 }
-#topbar1{
+
+#topbar1 {
     background-color: rgb(51, 51, 51);
     height: 50px;
 }
-a:link{
+
+a:link {
     text-decoration: none;
+}
+
+.card{
+    
+    width:350px;
+    height:370px;
+}
+
+.image{
+    position:absolute;
+    right:12px;
+    top:10px;
+}
+
+.main-heading{
+    
+    font-size:40px;
+    color:red !important;
+}
+
+.ratings i{
+    
+    color:orange;
+    
+}
+
+.user-ratings h6{
+    margin-top:2px;
+}
+
+.colors{
+    display:flex;
+    margin-top:2px;
+}
+
+.colors span{
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    cursor:pointer;
+    display:flex;
+    margin-right:6px;
+}
+
+.colors span:nth-child(1) {
+    
+    background-color:red;
+    
+}
+
+.colors span:nth-child(2) {
+    
+    background-color:blue;
+    
+}
+
+.colors span:nth-child(3) {
+    
+    background-color:yellow;
+    
+}
+
+.colors span:nth-child(4) {
+    
+    background-color:purple;
+    
+}
+
+.btn-danger{
+    
+    height:48px;
+    font-size:18px;
+}
+#save-badge{
+    background: #84be52;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+body {
+    background: #eee
+}
+
+.ratings i {
+    font-size: 16px;
+    color: red
+}
+
+.strike-text {
+    color: red;
+    text-decoration: line-through
+}
+
+.product-image {
+    width: 100%
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 3px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.spec-1 {
+    color: #938787;
+    font-size: 15px
+}
+
+h5 {
+    font-weight: 400
+}
+
+.para {
+    font-size: 16px
 }
